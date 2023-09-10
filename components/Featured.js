@@ -85,7 +85,7 @@ export default function Featured({product}){
                     </div>
                     </Column>
                     <Column>
-                        <img src="https://i-see.s3.amazonaws.com/1694040655684.png" />
+                        <img src="https://i-see.s3.amazonaws.com/1694307511911.avif" />
                     </Column> 
                 </ColumnsWrapper>
             </Center>
