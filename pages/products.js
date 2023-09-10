@@ -12,7 +12,7 @@ export default function ProductsPage({products}) {
       <Header />
       <Center>
         <Title>All products</Title>
-        <ProductsGrid products={products} />
+        <ProductsGrid products={products} limit = {products.length}/>
       </Center>
     </>
   );

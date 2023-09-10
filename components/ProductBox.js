@@ -12,7 +12,7 @@ const ProductWrapper = styled.div`
 const WhiteBox = styled(Link)`
     background-color:#fff;
     padding:20px;
-    height:120px;
+    height:200px;
     text-align:center;
     display:flex;
     align-items:center;
@@ -20,7 +20,7 @@ const WhiteBox = styled(Link)`
     border-radius: 10px;
     img{
         max-width:100%;
-        max-height:80px;
+        max-height:180px;
     }
 `
 
@@ -69,7 +69,7 @@ export default function ProductBox({_id,title,description,price,images}){
                 </div>
             </WhiteBox >
             <ProductInfoBox>
-                <Title href={url}>{title}</Title>
+                <Title href={url}>{title.substring(0,27)}...</Title>
                 <PriceRow>
                     <Price>
                         ${price}

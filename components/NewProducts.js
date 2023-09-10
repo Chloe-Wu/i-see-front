@@ -13,7 +13,7 @@ export default function NewProducts({products}){
     return(
         <Center>
             <Title>New Arrivals</Title>
-            <ProductsGrid products = {products}/>
+            <ProductsGrid products = {products} limit={6}/>
         </Center>
     )
 }

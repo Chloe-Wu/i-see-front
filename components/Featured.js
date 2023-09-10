@@ -5,12 +5,7 @@ import ButtonLink from "./ButtonLink";
 import CartIcon from "./icons/CartIcon";
 import { useContext } from "react";
 import {CartContext} from "@/components/CartContext"
-
-const Bg = styled.div`
-    background-color: #222; 
-    color: #fff;
-    padding: 50px 0;
-`
+import Bg from "./Bg";
 
 const Title  = styled.h1`
     margin: 0;
@@ -74,7 +69,8 @@ export default function Featured({product}){
                     <Column>
                     <div>
                         <Title>{product.title}</Title>
-                        <Desc>{product.description}</Desc>
+                        {/* <Desc>{product.description}</Desc> */}
+                        <Desc>Unbox the Surprise: Your Random Color Backpack Adventure Awaits!</Desc>
                         <ButtonsWrapper>
                             <ButtonLink href={'/product/'+product._id} outline={1} white={1}  >Read more</ButtonLink>
                             <Button white onClick={addFeaturedToCart} >
@@ -85,7 +81,7 @@ export default function Featured({product}){
                     </div>
                     </Column>
                     <Column>
-                        <img src="https://i-see.s3.amazonaws.com/1694307511911.avif" />
+                        <img src="https://i-see.s3.amazonaws.com/1694324333887.png" />
                     </Column> 
                 </ColumnsWrapper>
             </Center>
