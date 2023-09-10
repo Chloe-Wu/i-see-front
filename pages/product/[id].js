@@ -4,7 +4,7 @@ import Title from "@/components/Title";
 import {mongooseConnect} from "@/lib/mongoose";
 import {Product} from "@/models/Product";
 import styled from "styled-components";
-import WhiteBox from "@/components/Whitebox";
+import WhiteBox from "@/components/WhiteBox";
 import ProductImages from "@/components/ProductImages";
 import Button from "@/components/Button";
 import CartIcon from "@/components/icons/CartIcon";
