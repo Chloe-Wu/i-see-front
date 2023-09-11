@@ -47,7 +47,7 @@ export default function ProductPage({product}) {
                 <Price>${product.price}</Price>
               </div>
               <div>
-                <Button primary onClick={() => addProduct(product._id)}>
+                <Button primary outline onClick={() => addProduct(product._id)}>
                   <CartIcon />Add to cart
                 </Button>
               </div>

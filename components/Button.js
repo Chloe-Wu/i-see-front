@@ -55,6 +55,10 @@ ${props => props.size === 'l' && css`
         height:20px;
     }
 `}
+&:hover{
+    background-color: #222;
+    color:white; 
+}
  `
 
 const StyledButton = styled.button`
